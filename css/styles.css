@@ -1,7 +1,11 @@
+header{
+    background-color: white;
+}
 body{
-    background-color: darkslategrey;
+    background-color: gray;
 }
 
 h1{
     text-align: center;
+    color: blue;
 }
