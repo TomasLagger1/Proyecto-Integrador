@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color: #f4ebe2;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -17,14 +17,19 @@ header {
 
 h1 {
     text-align: center;
-    color: blue;
+    color: #57350e;
 }
 
 a {
-    color: red; 
+    color: #57350e; 
     text-decoration: none; 
+    font-weight: bold;
 }
 
 a:visited {
-    color: red;
+    color: #57350e;
+}
+
+body{
+    background-color: #57350e;
 }
