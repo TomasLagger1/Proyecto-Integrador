@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html>
- <head>
-    <title>LogIn</title>
- </head>
-
- <body>
-    <h1>Log In</h1>
- </body>
-
-
-</html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>Formulario Login</title>
+    </head>
+    <body>
+        <header>
+            <div><img class="logo" src="./img/logo.png" alt="logo"></div>
+            <div class="header-title">
+               <h1>Mystik Co</h1>
+            </div>
+            <div class="header-links">
+               <a href="login.html">
+                  <p>Login</p>
+               </a>
+               <a href="register.html">
+                  <p>Register</p>
+               </a>
+               <a href="recover.html">
+                  <p>Recuperar Contraseña</p>
+               </a>
+               <a class="riito" href="cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+               </a>
+            </div>
+         </header>
+        <form action="results.html" method="get"></form> 
+        <main>
+            <section class="contenedor">
+                <div class="form">
+                    <h1 class="h1">Iniciar sesión </h1>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" name="mail" value="" placeholder="Correo electronico">
+                    </div>     
+                    <div>
+                        <label>Contraseña:</label>
+                        <input type="password" name="pass" value="" placeholder="Contraseña">
+                    </div> 
+                    <div>
+                        <button type="submit">Ingresar</button>
+                    </div>
+                    <div>
+                        <a href="./register.html">No tengo cuenta</a>
+                    </div>
+                    <div>
+                        <a href="./recover.html">Recuperar contraseña</a>
+                    </div>
+                </div>
+            </section>
+        </main>  
+    </body>
+</html> 

@@ -1,0 +1,83 @@
+header {
+    background-color: #f4ebe2;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.header-title {
+    flex: 1; 
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #57350e;
+}
+
+a {
+    color: #57350e; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:visited {
+    color: #57350e;
+}
+
+body{
+    background-color: #57350e;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.riito{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.contenedor{
+    background-color: #57350e;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background-color: #f4ebe2;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h1{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+button[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
