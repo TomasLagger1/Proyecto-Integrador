@@ -33,3 +33,14 @@ a:visited {
 body{
     background-color: #57350e;
 }
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.riito{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+}
