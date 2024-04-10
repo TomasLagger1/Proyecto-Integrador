@@ -40,9 +40,9 @@ body{
 }
 
 .riito{
-    margin-top: 15px;
-    width: 25px;
-    height: 25px;
+    margin-top: 26px;
+    width: 30px;
+    height: 30px;
 }
 
 @font-face {
@@ -52,4 +52,19 @@ body{
 
 h1 {
     font-family: 'Tan Nimbus', sans-serif;
+}
+
+.hover {
+    background-color: #57350e;
+    color: #f4ebe2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    width: 55px;
+    text-align: center;
+}
+
+.hover:hover {
+    transform: scale(1.1);
 }
