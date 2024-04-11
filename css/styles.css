@@ -68,3 +68,13 @@ h1 {
 .hover:hover {
     transform: scale(1.1);
 }
+
+.hamburger-menu {
+    color: #57350e;
+    font-size: 20px; 
+    padding: 10px; 
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}

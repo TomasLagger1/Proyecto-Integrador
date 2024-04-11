@@ -1,10 +1,2 @@
-
-COLORES:
-marrón: #57350e
-beige: #f4ebe2
-
-LOGO CANVA:
-https://www.canva.com/design/DAGB7lA6Ft4/AMUeGTctn2cPau6gwz35cA/edit?utm_content=DAGB7lA6Ft4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-FONT
-tan nimbus
+documento de google:
+https://docs.google.com/document/d/1Qtpg7hBWOyk0N-4KUW0uSI2G_LEG1LqARnebg5iKoEs/edit?usp=sharing
