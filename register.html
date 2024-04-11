@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html>
- <head>
-    <title>Registrate</title>
- </head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+        <title>Formulario Registro</title>
+    </head>
+    <body>
+      <header>
 
- <body>
-    <h1>Registrate!</h1>
- </body>
-
-
+         <div> <a href="home.html"><img class="logo" src="./img/logo.png" alt="logo">
+         </a></div>
+   
+         <a href="#" class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+   
+         <div class="header-title">
+            <h1>Mystik CO</h1>
+         </div>
+   
+         <div class="header-links">
+            <a href="login.html">
+               <p class="hover">Login</p>
+            </a>
+            <a href="register.html">
+               <p class="hover">Register</p>
+            </a>
+            <a class="riito" href="cart.html">
+               <i class="fas fa-shopping-cart"></i>
+            </a>
+         </div>
+      </header>
+        <form action="results.html" method="get"></form> 
+        <main>
+            <section class="contenedorPadre">
+                <div class="formulario">
+                    <h2 class="titulo">Crea una Cuenta </h2>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" name="mail" value="" placeholder="Correo electronico">
+                    </div>     
+                    <div>
+                        <label>Contraseña:</label>
+                        <input type="password" name="pass" value="" placeholder="Contraseña">
+                    </div> 
+                    <div>
+                        <label> Repetir contraseña:</label>
+                        <input type="password" name="pass" value="" placeholder="Repetir contraseña">
+                    </div>
+                    <div>
+                        <button type="submit">Registrame</button>
+                    </div>
+                    <div>
+                        <label>Términos y condiciones</label>
+                        <input type="checkbox" name="Términos y condiciones" value="leyo los términos y condiciones">
+                    </div>
+                    <div>
+                        <a href="login.html">Ya tengo cuenta</a>
+                    </div>
+                </div>
+            </section>
+        </main>  
+    </body>
 </html>

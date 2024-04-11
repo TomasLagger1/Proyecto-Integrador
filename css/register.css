@@ -45,43 +45,6 @@ body{
     height: 30px;
 }
 
-.contenedor{
-    background-color: #57350e;
-    height: 100vh;
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form{
-    background-color: #f4ebe2;
-    height: 300px;
-    width: 500px;
-    border-radius: 20px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.h2{
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-
-button[type="submit"]{
-    width: 300px;
-    height: 40px;
-    border-radius: 20px;
-}
-
 @font-face {
     font-family: 'Tan Nimbus';
     src: url(./TAN-NIMBUS.otf) format('truetype');
@@ -89,11 +52,6 @@ button[type="submit"]{
 
 h1 {
     font-family: 'Tan Nimbus', sans-serif;
-}
-
-body {
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .hover {
@@ -119,4 +77,52 @@ body {
 
 .hamburger-menu:hover {
     cursor: pointer;
+}
+
+.head{
+    background-color: rgb(82, 81, 81);
+    width: 100%;
+    height: 100px;
+}
+
+.contenedorPadre{
+    background-color: #57350e;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: #f4ebe2;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+button[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius:20px;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
