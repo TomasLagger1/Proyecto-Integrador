@@ -79,31 +79,45 @@ h1 {
     cursor: pointer;
 }
 
-.imgproductos{
-    width: 180px;
-    height: 180px;
-}
-
-.novedades{
-    display: flex;
-    justify-content: space-between; 
-}
-
-.mas-vendidos{
-    display: flex;
-    justify-content: space-between; 
-}
-
-.para-el-invierno{
-    display: flex;
-    justify-content: space-between; 
-}
-
 h2{
-    height: 180px;
-    width: 180px;
+    background-color: #f4ebe2;
+    color: #57350e;
     text-align: center;
-    color:#57350e;
+    font-size: 45px;
+}
+
+.descripción{
+    background-color: #f4ebe2;
+    width: 500px;
+    height: 500px;
+}
+
+.taiofrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.ivanfrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}
+
+.helefrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}
+
+.imgproductos{
+    width: 500px;
+    height: 500px;
+}
+
+footer{
     background-color: #f4ebe2;
 }
-
