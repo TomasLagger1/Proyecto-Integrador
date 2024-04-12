@@ -78,3 +78,31 @@ h1 {
 .hamburger-menu:hover {
     cursor: pointer;
 }
+
+.imgproductos{
+    width: 180px;
+    height: 180px;
+}
+
+.novedades{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.mas-vendidos{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.para-el-invierno{
+    display: flex;
+    justify-content: space-between; 
+}
+
+h2{
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    color:#57350e;
+    background-color: #f4ebe2;
+}
