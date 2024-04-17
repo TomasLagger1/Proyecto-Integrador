@@ -69,47 +69,9 @@ h1 {
     transform: scale(1.1);
 }
 
-h2{
-    background-color: #f4ebe2;
-    color: #57350e;
-    text-align: center;
-    font-size: 45px;
-}
-
-.descripción{
-    background-color: #f4ebe2;
-    width: 500px;
-    height: 500px;
-}
-
-.taiofrers{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding: 10px; 
-}
-
-.ivanfrers{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding: 10px;
-}
-
-.helefrers{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding: 10px;
-}
-
-.imgproductos{
-    width: 500px;
-    height: 500px;
-}
-
-footer{
-    background-color: #f4ebe2;
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .hovermessi {

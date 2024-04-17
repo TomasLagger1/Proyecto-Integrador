@@ -111,12 +111,18 @@ body {
     transform: scale(1.1);
 }
 
-.hamburger-menu {
-    color: #57350e;
-    font-size: 20px; 
-    padding: 10px; 
+.hovermessi {
+    background-color: #57350e;
+    color: #f4ebe2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    width: 85px;
+    text-align: center;
+    margin-left: 10px;
 }
 
-.hamburger-menu:hover {
-    cursor: pointer;
+.hovermessi:hover {
+    transform: scale(1.1);
 }

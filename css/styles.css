@@ -69,19 +69,9 @@ h1 {
     transform: scale(1.1);
 }
 
-.hamburger-menu {
-    color: #57350e;
-    font-size: 20px; 
-    padding: 10px; 
-}
-
-.hamburger-menu:hover {
-    cursor: pointer;
-}
-
 .imgproductos{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 }
 
 .novedades{
@@ -100,10 +90,30 @@ h1 {
 }
 
 h2{
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     text-align: center;
     color:#57350e;
     background-color: #f4ebe2;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.hovermessi {
+    background-color: #57350e;
+    color: #f4ebe2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    width: 85px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.hovermessi:hover {
+    transform: scale(1.1);
+}
