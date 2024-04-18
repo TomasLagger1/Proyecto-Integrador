@@ -69,11 +69,6 @@ h1 {
     transform: scale(1.1);
 }
 
-body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 .hovermessi {
     background-color: #57350e;
     color: #f4ebe2;
@@ -88,4 +83,40 @@ body {
 
 .hovermessi:hover {
     transform: scale(1.1);
+}
+
+.contenedorMujeres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ropaMujeres{
+    width: 400px;   
+    height: 500px;
+    background-color: #f4ebe2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nombreProd{
+    text-align: center;
+}
+
+.imgMujeres{
+    width: 80%;
+    height: 275px;
+    
+}
+
+.listas{
+    list-style: none;
+}
+
+.botonMujeres{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    
 }

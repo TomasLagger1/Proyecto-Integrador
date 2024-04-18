@@ -92,7 +92,7 @@ h1 {
     justify-content: space-evenly;
 }
 
-.ropa{
+.ropaHombres{
     width: 400px;   
     height: 500px;
     background-color: #f4ebe2;
@@ -114,7 +114,7 @@ h1 {
     list-style: none;
 }
 
-.boton{
+.botonHombres{
     width: 150px;
     height: 30px;
     border-radius: 20px;
