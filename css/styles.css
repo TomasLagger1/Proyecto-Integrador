@@ -197,3 +197,41 @@ footer{
     border-radius: 20px;
     
 }
+
+.mainrecu{
+    background-color:#57350e;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulariorecu{
+    background-color:#f4ebe2;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tituloFormulario{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+button[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius:20px;
+}
+
