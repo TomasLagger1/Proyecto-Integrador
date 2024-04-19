@@ -346,3 +346,42 @@ button[type="submit"]{
     border-radius: 20px;
 }
 
+.botonProducto{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.sillon{
+    display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+.mesa{
+    background-color:#f4ebe2;
+    text-align: center;
+}
+.tenedor{
+    width: 500px;
+    height: 500px;
+}
+.xd{
+    list-style: none;
+}
+
+.lanzini{
+    font-size: 25px;
+}
+
+.ppproducto{
+    text-align: center;
+    font-size: 50px;
+    background-color: #f4ebe2;
+}
+
+.fonseca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
