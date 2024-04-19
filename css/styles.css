@@ -118,42 +118,6 @@ h1 {
     transform: scale(1.1);
 }
 
-.contenedorAccesorios{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.ropaAccesorios{
-    width: 400px;   
-    height: 500px;
-    background-color: #f4ebe2;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.imgAccesorios{
-    text-align: center;
-}
-
-.imgAccesorios{
-    width: 80%;
-    height: 275px;
-    
-}
-
-.listas{
-    list-style: none;
-}
-
-.botonAccesorios{
-    width: 150px;
-    height: 30px;
-    border-radius: 20px;
-    
-}
-
 .h2carrtio{
     background-color: #f4ebe2;
     color: #57350e;
@@ -228,42 +192,6 @@ footer{
 }
 
 .botonHombres{
-    width: 150px;
-    height: 30px;
-    border-radius: 20px;
-    
-}
-
-.contenedorMujeres{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.ropaMujeres{
-    width: 400px;   
-    height: 500px;
-    background-color: #f4ebe2;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.nombreProd{
-    text-align: center;
-}
-
-.imgMujeres{
-    width: 80%;
-    height: 275px;
-    
-}
-
-.listasMujeres{
-    list-style: none;
-}
-
-.botonMujeres{
     width: 150px;
     height: 30px;
     border-radius: 20px;
