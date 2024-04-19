@@ -97,11 +97,6 @@ h1 {
     background-color: #f4ebe2;
 }
 
-#homebody{
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 .hovermessi {
     background-color: #57350e;
     color: #f4ebe2;
@@ -316,3 +311,38 @@ button[type="submit"]{
     height: 40px;
     border-radius: 20px;
 }
+
+.contenedorIndex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imgIndex{
+    width: 80%;
+    height: 275px;
+}
+
+.productosIndex{
+    background-color: #f4ebe2;
+    width: 400px;   
+    height: 550px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nombreProdIndex{
+    text-align: center;
+}
+
+.listasIndex{
+    list-style: none;
+}
+
+.botonIndex{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
+
