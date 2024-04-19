@@ -1,0 +1,152 @@
+header {
+    background-color: #f4ebe2;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.header-title {
+    flex: 1; 
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #57350e;
+}
+
+a {
+    color: #57350e; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:visited {
+    color: #57350e;
+}
+
+body{
+    background-color: #57350e;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.riito{
+    margin-top: 26px;
+    width: 30px;
+    height: 30px;
+}
+
+@font-face {
+    font-family: 'Tan Nimbus';
+    src: url(./TAN-NIMBUS.otf) format('truetype');
+}
+
+h1 {
+    font-family: 'Tan Nimbus', sans-serif;
+}
+
+.hover {
+    background-color: #57350e;
+    color: #f4ebe2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    width: 55px;
+    text-align: center;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.imgproductoshome{
+    width: 160px;
+    height: 160px;
+}
+
+.novedades{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.mas-vendidos{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.para-el-invierno{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.h2home{
+    height: 160px;
+    width: 160px;
+    text-align: center;
+    color:#57350e;
+    background-color: #f4ebe2;
+}
+
+#homebody{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.hovermessi {
+    background-color: #57350e;
+    color: #f4ebe2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    width: 85px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.hovermessi:hover {
+    transform: scale(1.1);
+}
+
+.h2carrtio{
+    background-color: #f4ebe2;
+    color: #57350e;
+    text-align: center;
+    font-size: 45px;
+}
+
+footer{
+    background-color: #f4ebe2;
+}
+
+.sillon{
+    display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+.mesa{
+    background-color:#f4ebe2;
+    text-align: center;
+}
+.tenedor{
+    width: 500px;
+    height: 500px;
+}
+.xd{
+    list-style: none;
+}
+
+.lanzini{
+    font-size: 25px;
+}
