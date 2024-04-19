@@ -74,20 +74,6 @@ h1 {
     height: 160px;
 }
 
-.novedades{
-    display: flex;
-    justify-content: space-between; 
-}
-
-.mas-vendidos{
-    display: flex;
-    justify-content: space-between; 
-}
-
-.para-el-invierno{
-    display: flex;
-    justify-content: space-between; 
-}
 
 .h2home{
     height: 160px;
@@ -312,10 +298,10 @@ button[type="submit"]{
     border-radius: 20px;
 }
 
-.contenedorIndex{
+.contenedoresIndex{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
