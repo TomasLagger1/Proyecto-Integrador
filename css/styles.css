@@ -69,7 +69,7 @@ h1 {
     transform: scale(1.1);
 }
 
-.imgproductos{
+.imgproductoshome{
     width: 160px;
     height: 160px;
 }
@@ -89,7 +89,7 @@ h1 {
     justify-content: space-between; 
 }
 
-h2{
+.h2home{
     height: 160px;
     width: 160px;
     text-align: center;
@@ -97,7 +97,7 @@ h2{
     background-color: #f4ebe2;
 }
 
-body {
+#homebody{
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -116,4 +116,156 @@ body {
 
 .hovermessi:hover {
     transform: scale(1.1);
+}
+
+.contenedorAccesorios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ropaAccesorios{
+    width: 400px;   
+    height: 500px;
+    background-color: #f4ebe2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgAccesorios{
+    text-align: center;
+}
+
+.imgAccesorios{
+    width: 80%;
+    height: 275px;
+    
+}
+
+.listas{
+    list-style: none;
+}
+
+.botonAccesorios{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+.h2carrtio{
+    background-color: #f4ebe2;
+    color: #57350e;
+    text-align: center;
+    font-size: 45px;
+}
+
+.descripción{
+    background-color: #f4ebe2;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.taiofrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.ivanfrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}
+
+.helefrers{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}
+
+.imgproductos{
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    background-color: #f4ebe2;
+}
+
+.contenedorHombres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ropaHombres{
+    width: 400px;   
+    height: 500px;
+    background-color: #f4ebe2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nombreProd{
+    text-align: center;
+}
+
+.imgHombres{
+    width: 80%;
+    height: 275px;
+    
+}
+
+.listasHombre{
+    list-style: none;
+}
+
+.botonHombres{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+.contenedorMujeres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ropaMujeres{
+    width: 400px;   
+    height: 500px;
+    background-color: #f4ebe2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nombreProd{
+    text-align: center;
+}
+
+.imgMujeres{
+    width: 80%;
+    height: 275px;
+    
+}
+
+.listasMujeres{
+    list-style: none;
+}
+
+.botonMujeres{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    
 }
