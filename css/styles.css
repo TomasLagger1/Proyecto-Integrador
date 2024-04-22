@@ -260,11 +260,6 @@ button[type="submit"]{
     border-radius:20px;
 }
 
-.Blogin{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
 .contenedorgay{
     background-color: #57350e;
     height: 100vh;
