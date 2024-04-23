@@ -370,3 +370,43 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:420px){
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .header-title {
+        margin-bottom: 10px;
+    }
+
+    .header-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 70px;
+        height: auto;
+    }
+
+    .riito {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .hover {
+        width: auto;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .hovermessi {
+        width: auto;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
