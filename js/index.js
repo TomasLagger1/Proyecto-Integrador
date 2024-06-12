@@ -18,15 +18,23 @@
            for (let i=0; i<data.length; i++){
                let stock= data [i];
                item=`
+               <article class="productosIndex">
+               <div>
                <h3>${stock.title}</h3>
                <img class="imgIndex" src="${stock.image}">
                <ul class="listasIndex">
                <li>${stock.description}</li>
                <li>$${stock.price}</li>
                </ul>
-               <section class="botonIndex">
-               <a href="./producto.html?id=${stock.id}">VER MAS</a>
+               </div>
+                <div>
+                  <button class="botonIndex" type="submit"> <a href="./cart.html">Agregar al carrito</a> </button>
+               </div>
+               <div>
+                  <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
+               </div>
                </section>
+               </article>
                `
                hombress.innerHTML += item;
            }
