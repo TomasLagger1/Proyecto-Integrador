@@ -88,7 +88,7 @@
 // INDEX JEWERLY SECTION
 
 let joyas= document.querySelector(".contenedoresIndextres")
-let Item= ;
+let Item="";
 
 fetch('https://fakestoreapi.com/products/category/jewelery')
     .then (function(response){
