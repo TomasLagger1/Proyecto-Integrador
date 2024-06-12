@@ -8,10 +8,10 @@ let id = queryStringObj.get("id")
 
 console.log(id);
             
-            let hombress = document.querySelector(".productojsmessi")
-            let item="";
+            let producctt = document.querySelector(".productojsmessi")
+            let especifico="";
          
-            fetch('https://fakestoreapi.com/products/${id}')
+            fetch (`https://fakestoreapi.com/products/${id}`)
                 .then (function(response){
                     return response.json()
                 })
@@ -20,7 +20,7 @@ console.log(id);
                     console.log(data);
                     for (let i=0; i<data.length; i++){
                         let stock= data [i];
-                        item=`
+                        especifico=`
                         <div>
                         <p class="ppproducto">${stock.title}</p>
                         </div>
@@ -37,8 +37,8 @@ console.log(id);
                         <div class="fonseca">
                         <button class="botonProducto" type="submit"> <a href="./cart.html?id=${stock.id}">Agregar al carrito</a> </button>
                         </div>
-                        `
-                        hombress.innerHTML += item;
+                        `;
+                        producctt.innerHTML = especifico;
                     }
                 })
                 .catch (function(err){

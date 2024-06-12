@@ -114,7 +114,6 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
             <div>
                <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
             </div>
-            </section>
             </article>
             `
             joyas.innerHTML += itemmm;
