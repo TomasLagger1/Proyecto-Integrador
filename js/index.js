@@ -47,7 +47,7 @@
 // INDEX MUJERES SECTION
 
        let muujeres= document.querySelector(".contenedoresIndexdos")
-       let Item=
+       let itemm="";
     
        fetch('https://fakestoreapi.com/products/category/women\'s clothing')
            .then (function(response){
@@ -58,7 +58,7 @@
                console.log(data);
                for (let i=0; i<data.length; i++){
                    let stock= data [i];
-                   item=`
+                   itemm=`
                    <article class="productosIndex">
                    <div>
                    <h3 class="pipipi">${stock.title}</h3>
@@ -76,7 +76,7 @@
                    </section>
                    </article>
                    `
-                   muujeres.innerHTML += item;
+                   muujeres.innerHTML += itemm;
                }
            })
            .catch (function(err){
@@ -88,7 +88,7 @@
 // INDEX JEWERLY SECTION
 
 let joyas= document.querySelector(".contenedoresIndextres")
-let Item= ;
+let itemmm="";
 
 fetch('https://fakestoreapi.com/products/category/jewelery')
     .then (function(response){
@@ -99,7 +99,7 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
         console.log(data);
         for (let i=0; i<data.length; i++){
             let stock= data [i];
-            item=`
+            itemmm=`
             <article class="productosIndex">
             <div>
             <h3 class="pipipi">${stock.title}</h3>
@@ -117,7 +117,7 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
             </section>
             </article>
             `
-            joyas.innerHTML += item;
+            joyas.innerHTML += itemmm;
         }
     })
     .catch (function(err){
