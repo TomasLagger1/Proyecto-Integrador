@@ -297,7 +297,21 @@ button[type="submit"]{
     border-radius: 20px;
 }
 
-.contenedoresIndex{
+.contenedoresIndexuno{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contenedoresIndexdos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contenedoresIndextres{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
