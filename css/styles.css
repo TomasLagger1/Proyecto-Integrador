@@ -76,12 +76,12 @@ h1 {
 
 
 .h2home{
-    height: 100px;
-    width: 100px;
+    height: 95px;
+    width: 95px;
     text-align: center;
     color:#57350e;
     background-color: #f4ebe2;
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 .hovermessi {
@@ -293,7 +293,7 @@ button[type="submit"]{
 }
 
 button[type="submit"]{
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 20px;
 }
@@ -320,14 +320,14 @@ button[type="submit"]{
 }
 
 .imgIndex{
-    width: 300px;
-    height: 275px;
+    width: 190px;
+    height: 200px;
 }
 
 .productosIndex{
     background-color: #f4ebe2;
-    width: 300px;   
-    height: 550px;
+    width: 286px;   
+    height: 400px;
     margin-top: 20px;
     text-align: center;
 }
@@ -440,8 +440,10 @@ align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: center;
+    margin-right: 40px;
 }
 
 .pipipi{
     text-wrap: yes;
+    font-size: 12px;
 }
