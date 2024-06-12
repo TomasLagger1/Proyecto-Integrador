@@ -1,3 +1,13 @@
+console.log(location.search);
+
+let queryString = location.search
+
+let queryStringObj = new URLSearchParams(queryString)
+
+let id = queryStringObj.get("id")
+
+console.log(id);
+            
             let hombress = document.querySelector(".productojsmessi")
             let item="";
          
