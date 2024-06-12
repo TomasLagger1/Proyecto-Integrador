@@ -43,6 +43,9 @@
        })
 
 
+
+// INDEX MUJERES SECTION
+
        let muujeres= document.querySelector(".contenedoresIndexdos")
        let Item=
     
@@ -79,3 +82,7 @@
            .catch (function(err){
                console.log(err);
     })
+
+
+
+// INDEX JEWERLY SECTION

@@ -76,8 +76,8 @@ h1 {
 
 
 .h2home{
-    height: 95px;
-    width: 95px;
+    height: 150px;
+    width: 150px;
     text-align: center;
     color:#57350e;
     background-color: #f4ebe2;
@@ -326,8 +326,8 @@ button[type="submit"]{
 
 .productosIndex{
     background-color: #f4ebe2;
-    width: 286px;   
-    height: 400px;
+    width: 300px;   
+    height: 500px;
     margin-top: 20px;
     text-align: center;
 }
@@ -445,5 +445,5 @@ align-items: center;
 
 .pipipi{
     text-wrap: yes;
-    font-size: 12px;
+    font-size: 20px;
 }
