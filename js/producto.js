@@ -17,15 +17,15 @@
                         <div class="sillon"><img class="tenedor" src="${stock.image}" alt="imagen producto"></div>
                         <div class="mesa"> 
                         <ul class="xd">
-                        <li class="lanzini">Categoria: Mujeres</li>
-                        <li class="lanzini">
-                        $${stock.price}
+                        <li class="lanzini3">${stock.description}</li>
+                        <li class="lanzini">Categoria: ${stock.category}</li>
+                        <li class="lanzini2">
+                        PRECIO: $${stock.price}
                         </li> 
-                        <li class="lanzini">${stock.description}</li>
                         </ul>
                         </div>
                         <div class="fonseca">
-                        <button class="botonProducto" type="submit"> <a href="./cart.html">Agregar al carrito</a> </button>
+                        <button class="botonProducto" type="submit"> <a href="./cart.html?id=${stock.id}">Agregar al carrito</a> </button>
                         </div>
                         `
                         hombress.innerHTML += item;
