@@ -11,7 +11,7 @@ console.log(id);
             let hombress = document.querySelector(".productojsmessi")
             let item="";
          
-            fetch('https://fakestoreapi.com/products')
+            fetch('https://fakestoreapi.com/products/${id}')
                 .then (function(response){
                     return response.json()
                 })
