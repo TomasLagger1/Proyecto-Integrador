@@ -20,11 +20,10 @@
                item=`
                <article class="productosIndex">
                <div>
-               <h3>${stock.title}</h3>
+               <h3 class="pipipi">${stock.title}</h3>
                <img class="imgIndex" src="${stock.image}">
                <ul class="listasIndex">
-               <li>${stock.description}</li>
-               <li>$${stock.price}</li>
+               <li class="precioIndexJs">$${stock.price}</li>
                </ul>
                </div>
                 <div>

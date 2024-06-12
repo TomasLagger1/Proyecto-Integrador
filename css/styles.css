@@ -76,11 +76,12 @@ h1 {
 
 
 .h2home{
-    height: 160px;
-    width: 160px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     color:#57350e;
     background-color: #f4ebe2;
+    margin-top: 200px;
 }
 
 .hovermessi {
@@ -325,7 +326,7 @@ button[type="submit"]{
 
 .productosIndex{
     background-color: #f4ebe2;
-    width: 400px;   
+    width: 300px;   
     height: 550px;
     margin-top: 20px;
     text-align: center;
@@ -423,4 +424,15 @@ align-items: center;
         padding: 8px 15px;
         font-size: 14px;
     }
+}
+
+.precioIndexJs {
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pipipi{
+    text-wrap: yes;
 }
