@@ -8,7 +8,7 @@ let id = queryStringObj.get("id")
 
 console.log(id);
             
-            let producctt = document.querySelector(".productojsmessi")
+            let producctt = document.querySelector(".hovermessi")
             let especifico="";
          
             fetch (`https://fakestoreapi.com/products/${id}`)
