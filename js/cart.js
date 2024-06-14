@@ -8,8 +8,8 @@ let id = queryStringObj.get("id")
 
 console.log(id);
             
-            let producctt = document.querySelector(".productojsmessi")
-            let especifico="";
+            let agreg = document.querySelector(".taiofrers")
+            let carroo="";
          
             fetch (`https://fakestoreapi.com/products/${id}`)
                 .then (function(response){
@@ -19,25 +19,13 @@ console.log(id);
                 .then (function(data){
                     console.log(data);
                     let stock= data;
-                        especifico=`
-                        <div>
-                        <p class="ppproducto">${stock.title}</p>
-                        </div>
-                        <div class="sillon"><img class="tenedor" src="${stock.image}" alt="imagen producto"></div>
-                        <div class="mesa"> 
-                        <ul class="xd">
-                        <li class="lanzini3">${stock.description}</li>
-                        <li class="lanzini">Categoria: ${stock.category}</li>
-                        <li class="lanzini2">
-                        PRECIO: $${stock.price}
-                        </li> 
-                        </ul>
-                        </div>
-                        <div class="fonseca">
-                        <button class="botonProducto" type="submit"> <a href="./cart.html?id=${stock.id}">Agregar al carrito</a> </button>
-                        </div>
+                        carroo=`
+                    <div>
+                    <div class="messi"><img class="imgproductos" src="${stock.image}" alt="foto producto carrito"></div>
+                    <div class="descripción">${stock.description}</div>
+                    </div>
                         `;
-                        producctt.innerHTML = especifico;
+                        agreg.innerHTML = carroo;
                     }
                 )
                 .catch (function(err){
