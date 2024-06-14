@@ -18,8 +18,7 @@ console.log(id);
          
                 .then (function(data){
                     console.log(data);
-                    for (let i=0; i<data.length; i++){
-                        let stock= data [i];
+                    let stock= data;
                         especifico=`
                         <div>
                         <p class="ppproducto">${stock.title}</p>
@@ -40,7 +39,7 @@ console.log(id);
                         `;
                         producctt.innerHTML = especifico;
                     }
-                })
+                )
                 .catch (function(err){
                     console.log(err);
                 })
