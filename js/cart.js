@@ -1,4 +1,4 @@
-            let agreg = document.querySelector(".centu")
+   let agreg = document.querySelector(".centu")
             let carroo="";
          
             fetch('https://fakestoreapi.com/products')

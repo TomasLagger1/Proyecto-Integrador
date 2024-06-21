@@ -332,7 +332,6 @@ button[type="submit"]{
 .productosIndex{
     background-color: #f4ebe2;
     width: 300px;   
-    height: 500px;
     margin-top: 20px;
     text-align: center;
 }
@@ -522,4 +521,10 @@ footer {
     width: 150px;
     height: 30px;
     border-radius: 20px;
+}
+
+.descindex{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 40px;
 }

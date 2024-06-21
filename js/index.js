@@ -23,11 +23,9 @@
                <h3 class="pipipi">${stock.title}</h3>
                <img class="imgIndex" src="${stock.image}">
                <ul class="listasIndex">
+               <li class="descindex">${stock.description}</li>
                <li class="precioIndexJs">$${stock.price}</li>
                </ul>
-               </div>
-                <div>
-                  <button class="botonIndex" type="submit"> <a href="./cart.html">Agregar al carrito</a> </button>
                </div>
                <div>
                   <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
@@ -64,11 +62,9 @@
                    <h3 class="pipipi">${stock.title}</h3>
                    <img class="imgIndex" src="${stock.image}">
                    <ul class="listasIndex">
+                   <li class="descindex">${stock.description}</li>
                    <li class="precioIndexJs">$${stock.price}</li>
                    </ul>
-                   </div>
-                    <div>
-                      <button class="botonIndex" type="submit"> <a href="./cart.html">Agregar al carrito</a> </button>
                    </div>
                    <div>
                       <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
@@ -105,14 +101,12 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
             <h3 class="pipipi">${stock.title}</h3>
             <img class="imgIndex" src="${stock.image}">
             <ul class="listasIndex">
+            <li class="descindex">${stock.description}</li>
             <li class="precioIndexJs">$${stock.price}</li>
             </ul>
             </div>
-             <div>
-               <button class="botonIndex" type="submit"> <a href="./cart.html"> Agregar al carrito</a> </button>
-            </div>
             <div>
-               <button onclick="agregarAlCarrito(${stock.id})" class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
+            <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
             </div>
             </article>
             `
@@ -122,6 +116,12 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
     .catch (function(err){
         console.log(err);
     })
+
+    
+    let bot = document.getElementByClass('botonIndexx');
+    bot.addEventListener('click', function() {
+        alert('Agregado al carrito');
+    });
 
     function agregarAlCarrito(productoId) {
         let cart = JSON.parse(localStorage.getItem('cart'));
