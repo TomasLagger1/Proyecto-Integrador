@@ -7,6 +7,12 @@ let queryStringObj = new URLSearchParams(queryString)
 let id = queryStringObj.get("id")
 
 console.log(id);
+
+function agregAlCar(idproducto) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(idproducto);
+        localStorage.setItem('cart', JSON.stringify(cart));
+}
             
             let producctt = document.querySelector(".productojsmessi")
             let especifico="";
@@ -18,7 +24,7 @@ console.log(id);
          
                 .then (function(data){
                     console.log(data);
-                    let stock= data;
+                    let stock = data;
                         especifico=`
                         <div>
                         <p class="ppproducto">${stock.title}</p>
@@ -38,8 +44,16 @@ console.log(id);
                         </div>
                         `;
                         producctt.innerHTML = especifico;
+
+                        let bot = document.querySelector(".botonProducto")
+                        console.log(bot)
+                        bot.addEventListener('click', function() {
+                            alert('Agregado al carrito');
+                        });            
+
                     }
                 )
                 .catch (function(err){
                     console.log(err);
                 })
+

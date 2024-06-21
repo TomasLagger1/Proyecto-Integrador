@@ -117,12 +117,6 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
         console.log(err);
     })
 
-    
-    let bot = document.getElementByClass('botonIndexx');
-    bot.addEventListener('click', function() {
-        alert('Agregado al carrito');
-    });
-
     function agregarAlCarrito(productoId) {
         let cart = JSON.parse(localStorage.getItem('cart'));
         cart.push(productoId);
