@@ -49,6 +49,7 @@ function agregAlCar(idproducto) {
                         console.log(bot)
                         bot.addEventListener('click', function() {
                             alert('Agregado al carrito');
+                            agregAlCar(stock.id);
                         });            
 
                     }

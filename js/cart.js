@@ -1,7 +1,13 @@
-   let agreg = document.querySelector(".centu")
+   let cart = document.querySelector(".centu")
             let carroo="";
-         
-            fetch('https://fakestoreapi.com/products')
+
+    let stock = cart
+
+localStorage.getItem(`cart`)
+
+console.log(cart)
+ 
+            fetch(`https://fakestoreapi.com/products/${id}`)
             .then(res=>res.json())
             .then(json=>console.log(json))
 
@@ -15,7 +21,7 @@
                     <div class="descripción">${stock.title}</div>
                     </div>
                         `;
-                        agreg.innerHTML = carroo;
+                        cart.innerHTML = carroo;
                     }
                 )
                 .catch (function(err){
@@ -26,4 +32,5 @@
 
                 button.addEventListener('click', function() {
                     alert('Gracias por tu compra');
+                    localStorage.clear();
                 });
