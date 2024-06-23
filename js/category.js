@@ -4,20 +4,25 @@ let queryString = location.search
 
 let queryStringObj = new URLSearchParams(queryString)
 
-let id = queryStringObj.get("id")
+let category = queryStringObj.get("category")
 
-console.log(id);
+console.log(category);
             
             let producctt = document.querySelector(".hovermessi")
             let especifico="";
          
-            fetch (`https://fakestoreapi.com/products/${id}`)
+            fetch (`https://fakestoreapi.com/products/category/${category}`)
                 .then (function(response){
-                    return response.json()
+                    return response.json();
                 })
          
                 .then (function(data){
                     console.log(data);
+
+                    for (let i=0; i>data.length; i++){
+                        let stock = data [i];
+                        console.log(stock);
+                    }
                     let stock= data;
                         especifico=`
                         <div>
