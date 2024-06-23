@@ -41,18 +41,18 @@
                </a>
             </div>
          </header>
-        <form action="results.html" method="get"></form> 
+        <form  id="loginForm" action="./index.html" method="get"></form> 
         <main>
             <section class="contenedorgay">
                 <div class="formgay">
                     <h2 class="h2gay"a>Iniciar sesión </h2>
                     <div>
                         <label>Email:</label>
-                        <input type="email" name="mail" value="" placeholder="Correo electronico">
+                        <input id="email" type="email" name="mail" value="" placeholder="ej:messi@gmail.com">
                     </div>     
                     <div>
                         <label>Contraseña:</label>
-                        <input type="password" name="pass" value="" placeholder="Contraseña">
+                        <input id="password" type="password" name="pass" value="" placeholder="ej:goat123">
                     </div> 
                     <div>
                         <button type="submit">Ingresar</button>
@@ -63,11 +63,13 @@
                     <div>
                         <a href="./recover.html">Recuperar contraseña</a>
                     </div>
+        </form> 
                 </div>
             </section>
         </main>  
-    </body>
     <footer class="footer">
         <p> Made by: Valentin Meggiolaro, Tomas Lagger y Pedro Nadinic</p>
      </footer>
+     <script src="./js/login.js"></script>
+    </body>
 </html> 
