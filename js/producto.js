@@ -33,7 +33,7 @@ function agregAlCar(idproducto) {
                         <div class="mesa"> 
                         <ul class="xd">
                         <li class="lanzini3">${stock.description}</li>
-                        <li class="lanzini">Categoria: ${stock.category}</li>
+                        <a href="./category.html?category=${stock.category}"><li class="lanzini">Categoria: ${stock.category}</li></a>
                         <li class="lanzini2">
                         PRECIO: $${stock.price}
                         </li> 
