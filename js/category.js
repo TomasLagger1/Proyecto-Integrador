@@ -8,40 +8,39 @@ let category = queryStringObj.get("category")
 
 console.log(category);
             
-            let producctt = document.querySelector(".hovermessi")
+            let producctt = document.querySelector(".contenedoresIndexuno")
             let especifico="";
          
-            fetch (`https://fakestoreapi.com/products/category/${category}`)
+            fetch (`https://fakestoreapi.com/products/category/`+category)
                 .then (function(response){
                     return response.json();
                 })
          
                 .then (function(data){
                     console.log(data);
-
-                    for (let i=0; i>data.length; i++){
+especifico = `<section class= "contenedoresIndexuno">`
+                    
+                     for (let i=0; i<data.length; i++){
                         let stock = data [i];
                         console.log(stock);
-                    }
-                    let stock= data;
-                        especifico=`
+                        console.log(stock.title);
+                        console.log(stock.image);
+                        console.log(stock.description);
+                       
+
+                        especifico=especifico+`<article class="productosIndex">
+                        <h3 class="pipipi">${stock.title}</h3>
+                        <div> <img class="imgIndex" src="${stock.image}" alt="${stock.title}"></div>
                         <div>
-                        <p class="ppproducto">${stock.title}</p>
+                            <ul class="listasIndex">
+                                <li class = "descindex">Descripcion: ${stock.description}</li>
+                            </ul>
                         </div>
-                        <div class="sillon"><img class="tenedor" src="${stock.image}" alt="imagen producto"></div>
-                        <div class="mesa"> 
-                        <ul class="xd">
-                        <li class="lanzini3">${stock.description}</li>
-                        <li class="lanzini">Categoria: ${stock.category}</li>
-                        <li class="lanzini2">
-                        PRECIO: $${stock.price}
-                        </li> 
-                        </ul>
-                        </div>
-                        <div class="fonseca">
-                        <button class="botonProducto" type="submit"> <a href="./cart.html?id=${stock.id}">Agregar al carrito</a> </button>
-                        </div>
+                        </article>
                         `;
+                    }
+                    
+                        especifico=especifico+ `</section>`
                         producctt.innerHTML = especifico;
                     }
                 )
