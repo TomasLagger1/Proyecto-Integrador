@@ -36,6 +36,9 @@ especifico = `<section class= "contenedoresIndexuno">`
                                 <li class = "descindex">Descripcion: ${stock.description}</li>
                             </ul>
                         </div>
+                         <div>
+                  <button class="botonIndex" type="submit"> <a href="./producto.html?id=${stock.id}">Ver más</a> </button>
+               </div>
                         </article>
                         `;
                     }
