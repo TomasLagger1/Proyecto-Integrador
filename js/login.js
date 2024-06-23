@@ -2,7 +2,7 @@ let loginForm = document.querySelector("#loginForm");
 let campoEmail= document.querySelector("#email")
 let campoPassword= document.querySelector("#password")
 
-loginForm.addEventListener(`submit`, function (e) {
+loginForm.addEventListener('submit',function(e){
     e.preventDefault()
 
     if (campoEmail.value == "") {
@@ -17,3 +17,8 @@ loginForm.addEventListener(`submit`, function (e) {
     } 
 
 })  
+
+console.log(campoEmail.value);
+console.log(campoEmail);
+console.log(loginForm);
+console.log(campoPassword);
