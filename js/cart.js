@@ -16,8 +16,8 @@ if (idLocal == null) {
                 let stock = data;
                 carroo += `
                     <div>
-                        <div class="messi"><img class="imgproductos" src="${stock.image}" alt="foto producto carrito"></div>
-                        <div class="descripción">${stock.title}</div>
+                        <div class="sprite"><img class="imagencarrocool" src="${stock.image}" alt="foto producto carrito"></div>
+                        <div class="spritecero">${stock.title}</div>
                     </div>
                 `;
                 carti.innerHTML = carroo;
