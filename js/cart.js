@@ -34,7 +34,7 @@
 
     button.addEventListener('click', function() {
         alert('Gracias por tu compra');
-        localStorage.clear();
+        localStorage.removeItem('cart');
 
     })
 
