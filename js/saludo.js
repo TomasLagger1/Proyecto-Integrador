@@ -11,10 +11,8 @@ else if (userEmail == null){
     registro.style.display = "block"      
 }
 else {
-    document.querySelector(".bienvenida").innerHTML = "Bienvenido: " + userEmail  
+    document.querySelector(".bienvenida").innerHTML = "Bienvenido: " + userEmail +  `<ul class="header-links"> <li class="LOGOUT"> <a href = "#"> logout </a> </li> </article> </ul>`
     login.style.display = "none"
-    registro.style.display = "none"    
+    registro.style.display = "none"
+
 }
-
-
-
