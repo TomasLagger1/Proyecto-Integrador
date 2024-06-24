@@ -14,7 +14,7 @@ form.addEventListener("submit", function(e) {
 
     error.innerHTML = "";
 
-    if (cosoMail.value.trim() === "") {
+    if (cosoMail.value == "") {
         error.innerHTML = "<p>Por favor escriba su email.</p>";
         error.style.display = "block";
     } else if (!checkbox.checked) {
