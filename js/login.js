@@ -10,6 +10,8 @@ console.log(campoPassword);
 loginForm.addEventListener('submit',function(e){
     e.preventDefault()
 
+    alert("hola")
+
     if (campoEmail.value == "") {
         alert("Por favor complete el campo email")
     }else if(campoPassword.value == ""){
