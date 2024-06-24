@@ -42,22 +42,23 @@
             </a>
          </div>
       </header>
-        <form action="results.html" method="get"></form> 
-        <main>
+       <main>
+      <form id="Registroform" action="results.html" method="get">
+        
             <section class="contenedorPadre">
                 <div class="formulario">
                     <h2 class="titulo">Crea una Cuenta </h2>
                     <div>
                         <label>Email:</label>
-                        <input type="email" name="mail" value="" placeholder="Correo electronico">
+                        <input id="mail" type="email" name="mail" value="" placeholder="Correo electronico">
                     </div>     
                     <div>
                         <label>Contraseña:</label>
-                        <input type="password" name="pass" value="" placeholder="Contraseña">
+                        <input id="pass" type="password" name="pass" value="" placeholder="Contraseña">
                     </div> 
                     <div>
                         <label> Repetir contraseña:</label>
-                        <input type="password" name="pass" value="" placeholder="Repetir contraseña">
+                        <input id="passretry" type="password" name="passretry" value="" placeholder="Repetir contraseña">
                     </div>
                     <div>
                         <button type="submit">Registrame</button>
@@ -71,9 +72,11 @@
                     </div>
                 </div>
             </section>
+        </form>
         </main>  
     </body>
    <footer class="footer">
     <p> Made by: Valentin Meggiolaro, Tomas Lagger y Pedro Nadinic</p>
  </footer>
+ <script src="./js/registro.js"></script>
 </html>
