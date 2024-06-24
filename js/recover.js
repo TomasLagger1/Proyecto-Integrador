@@ -1,30 +1,27 @@
-let test = "hola"
-console.log(test)
 
-let mail  = document.querySelector(".mail")
+let form = document.querySelector("#formulariocool");
 
-let check = document.querySelector(".alfajor")
+let cosoMail = document.querySelector(".mail");
 
-let bien = document.querySelector(".mainecu")
+let checkbox = document.querySelector(".alfajor");
 
-let mal = document.querySelector(".error")
+let error = document.querySelector("#mal");
 
-let revolver = document.querySelector(".formulariocool")
+let exito = document.querySelector(".mainrecu");
 
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
 
-revolver.addEventListener("submit", function(e){
-    e.preventDefault()
+    error.innerHTML = "";
 
-    if (mail.value == ""){
-        mal.innerHTML = "<p>Por favor escriba su email.</p>"
-
-    } else if(!check.checked){
-        mal.innerHTML = "<p>Por favor acepte el campo Quiero recuperar mi contraseña</p>"
-
+    if (cosoMail.value.trim() === "") {
+        error.innerHTML = "<p>Por favor escriba su email.</p>";
+        error.style.display = "block";
+    } else if (!checkbox.checked) {
+        error.innerHTML = "<p>Por favor acepte el campo Quiero recuperar mi contraseña</p>";
+        error.style.display = "block";
     } else {
-        revolver.style.display = "none";
-        bien.innerHTML = "<p>Recibirás un email con las instrucciones para recuperar tu contraseña</p> <a href='./login.html'></a>"
-        revolver.submit()
-    } 
-
-} )
+        exito.innerHTML = "<p>Recibirás un email con las instrucciones para recuperar tu contraseña</p><a href='./login.html'>Ir al Login</a>";
+        exito.style.display = "block";
+    }
+});

@@ -42,33 +42,31 @@
             </a>
          </div>
       </header>
+
       
-        <form id="formulariocool">
-        <main>
-            <section class="mainrecu">
-                <div class="formulariorecu">
-                    <h2 class="tituloFormulario">Recuperar tu contraseña</h2>
-                    <div>
-                        <label>Email:</label>
-                        <input class="mail" type="email" name="mail" value="" placeholder="Correo electronico">
-                    </div>     
-                    <div>
-                        <button type="submit">Recuperar</button>
+         <main>
+            <form id="formulariocool">
+                <section class="mainrecu">
+                    <div class="formulariorecu">
+                        <h2 class="tituloFormulario">Recuperar tu contraseña</h2>
+                        <div>
+                            <label>Email:</label>
+                            <input class="mail" type="email" name="mail" value="" placeholder="Correo electrónico">
+                        </div>     
+                        <div id="errorMail"></div>
+                        <div>
+                            <button type="submit">Recuperar</button>
+                        </div>
+                        <div>
+                            <label>Quiero recuperar mi contraseña</label>
+                            <input class="alfajor" type="checkbox" name="Recuperar Contraseña" value="quiere recuperar su contraseña">
+                        </div>
                     </div>
-                    <div>
-                        <label>Quiero recuperar mi contraseña</label>
-                        <input class="alfajor" type="checkbox" name="Recuperar Contraseña" value="quiere recuperar su contraseña">
-                    </div>
-                </div>
-            </section>
-         </form> 
+                    <div id="mal"></div>
+                </section>
+            </form>
 
-         <section class="error">
-
-
-         </section>
-         
-        </main>  
+         </main>  
         <script src="./js/recover.js"></script>
     </body>
     <footer class="footer">
