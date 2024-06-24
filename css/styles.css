@@ -552,3 +552,7 @@ footer {
 .LOGOUT{
     margin-top: 5px;
 }
+
+.error{
+    color: #f4ebe2;
+}
